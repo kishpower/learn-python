@@ -3,8 +3,9 @@ twenty = 20
 # print(type(type) == str)
 # print(isinstance(twenty,int))
 
-twentyStr = str(twenty)
+twentyStr = str(twenty) # "20"
 twentyFloat = float(twentyStr) # float(twenty)
+dynamicString = f"this is {twenty}" # this is twenty 
 
 # print(isinstance(twentyStr,str))
 # print(isinstance(twentyFloat,float), twentyFloat)
